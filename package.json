@@ -1,0 +1,33 @@
+{
+  "name": "llm-chat-backend",
+  "version": "1.0.0",
+  "description": "LLM integrated with langchain in node js backend ",
+  "keywords": [
+    "LLM-chat-app"
+  ],
+  "homepage": "https://github.com/EntityZeus/LLM-chat-backend#readme",
+  "bugs": {
+    "url": "https://github.com/EntityZeus/LLM-chat-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EntityZeus/LLM-chat-backend.git"
+  },
+  "license": "ISC",
+  "author": "Chandrashekhar Maity",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.2.3",
+    "@langchain/google-genai": "^2.2.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
